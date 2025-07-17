@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selda Handmade Bags</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Selda Handmade Bags</h1>
+    <p>Çanta unike me rruaza, punuar me dashuri!</p>
+  </header>
+
+  <main class="gallery">
+
+    <div class="bag">
+      <img src="images/canta-kuqe.jpg" alt="Canta 1" class="product-img" />
+      <h3>Çanta E Kuqe</h3>
+      <p>Elegante dhe perfekte për mbrëmje.</p>
+      <button class="contact-btn">Na kontakto</button>
+    </div>
+
+    <div class="bag">
+      <img src="images/canta-bardhe.jpg" alt="Canta 2" class="product-img" />
+      <h3>Çanta E Bardhë</h3>
+      <p>Minimaliste dhe moderne.</p>
+      <button class="contact-btn">Na kontakto</button>
+    </div>
+
+    <div class="bag">
+      <img src="images/canta-shkelqim.jpg" alt="Canta 3" class="product-img"/>
+      <h3>Çanta Rruaza Shkëlqim</h3>
+      <p>Për ditët e veçanta me stil unik ✨</p>
+      <button class="contact-btn">Na kontakto</button>
+    </div>
+  </main>
+  <!--Seksioni Kontakt-->
+  <section id="contact" style="padding:  40px; background-color: #f6f6f4; text-algin: center;">
+   <h2>Na kontakto</h2>
+   <p>Tel: +355 68 269 5431</p>
+   <p>Email: seldagjoka@gmail.com</p>
+   <p>Adresa: Durres,Shqiperi</p>
+
+   <form action="emailto:seldagjoka@gmail.com" method="POST" enctype="text/plain" style="margin-top: 30px; max-width: 400px; margin-inline: auto: left ;"?>
+   <label for="name">Emri:</label><br>
+   <input type="text" id="name" name="name" required style="width: 30%; padding: 8px; margin-bottom: 10px;"><br>
+   <label for="email">Email:</label><br>
+   <input type="text" id="email" name="email" required style="width: 200px; padding: 8px; margin-bottom: 15px; "><br>
+   <label for="message">Mesazhi:</label><br>
+   <textarea  id="message" name="message" rows="4" required style="width: 100%; padding: 8px; margin-bottom: 15px; "></textarea><br>
+
+   <input type="submit" value="Dergo" style="background-color: #cc0066; color: white; border: none;padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+
+</form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Selda Handmade. Të gjitha të drejtat e rezervuara.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
